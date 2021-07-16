@@ -39,6 +39,7 @@
     <content url="file://C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/PluginUtils" />
     <content url="file://C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/PropertyAccessNode" />
     <content url="file://C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/RenderDocPlugin" />
+    <content url="file://C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/RiderLink" />
     <content url="file://C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/RiderSourceCodeAccess" />
     <content url="file://C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/SubversionSourceControl" />
     <content url="file://C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/TraceDataFiltering" />
