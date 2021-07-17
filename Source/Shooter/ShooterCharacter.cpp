@@ -4,18 +4,21 @@
 #include "ShooterCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Math/UnrealMathUtility.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter() :
 	BaseTurnRate(45.f),
-	BaseLookUpRate(45.f)
+	BaseLookUpRate(45.f),
+	BaseSpringArmLength(300.f),
+	BaseSpringArmRate(1000.f)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 300.f;
+	CameraBoom->TargetArmLength = BaseSpringArmLength;
 	//whenever the controller moves, the camera boom will use that rotation
 	CameraBoom->bUsePawnControlRotation = true;
 
@@ -69,6 +72,17 @@ void AShooterCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
+void AShooterCharacter::IncreaseCameraBoom()
+{
+	CameraBoom->TargetArmLength = FMath::Clamp(CameraBoom->TargetArmLength + BaseSpringArmRate * GetWorld()->GetDeltaSeconds(), 300.f, 900.f);
+	
+}
+
+void AShooterCharacter::DecreaseCameraBoom()
+{
+	CameraBoom->TargetArmLength = FMath::Clamp(CameraBoom->TargetArmLength - BaseSpringArmRate * GetWorld()->GetDeltaSeconds(), 300.f, 900.f);
+}
+
 // Called every frame
 void AShooterCharacter::Tick(float DeltaTime)
 {
@@ -92,6 +106,7 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAction("Jump",IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump",IE_Released, this, &ACharacter::StopJumping);
 	
-
+	PlayerInputComponent->BindAction("IncreaseCameraBoom",IE_Pressed, this, &AShooterCharacter::IncreaseCameraBoom);
+	PlayerInputComponent->BindAction("DecreaseCameraBoom",IE_Pressed, this, &AShooterCharacter::DecreaseCameraBoom);
 }
 
