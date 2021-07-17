@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
     </list>
@@ -383,7 +384,7 @@
       <updated>1626315518975</updated>
       <workItem from="1626315549248" duration="922000" />
       <workItem from="1626405168439" duration="4629000" />
-      <workItem from="1626488947364" duration="2979000" />
+      <workItem from="1626488947364" duration="3751000" />
     </task>
     <servers />
   </component>
@@ -406,5 +407,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1626495652117">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1626495652117" />
   </component>
 </project>
