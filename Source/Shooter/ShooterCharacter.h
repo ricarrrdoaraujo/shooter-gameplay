@@ -23,6 +23,16 @@ protected:
 	
 	void MoveRight(float Value);
 
+	/**
+	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
+	 */
+	void TurnAtRate(float Rate);
+
+	/**
+	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired rate
+	 */
+	void LookUpAtRate(float Rate);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -37,6 +47,14 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	//base turn rates in degrees per second
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	float BaseTurnRate;
+
+	//in degrees per second
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	float BaseLookUpRate;
 	
 public:
 	FORCEINLINE USpringArmComponent* GetCameraBoom() const { return CameraBoom; };
