@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
     </list>
@@ -399,7 +398,7 @@
       <workItem from="1626565399650" duration="2349000" />
       <workItem from="1626572060603" duration="671000" />
       <workItem from="1626639631762" duration="89000" />
-      <workItem from="1626640033207" duration="2053000" />
+      <workItem from="1626640033207" duration="3642000" />
     </task>
     <servers />
   </component>
