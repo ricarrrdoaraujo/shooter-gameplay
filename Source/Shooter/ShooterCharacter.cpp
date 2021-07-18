@@ -6,6 +6,8 @@
 #include "Camera/CameraComponent.h"
 #include "Math/UnrealMathUtility.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Sound/SoundCue.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter() :
@@ -95,6 +97,15 @@ void AShooterCharacter::DecreaseCameraBoom()
 	CameraBoom->TargetArmLength = FMath::Clamp(CameraBoom->TargetArmLength - BaseSpringArmRate * GetWorld()->GetDeltaSeconds(), 300.f, 900.f);
 }
 
+void AShooterCharacter::FireWeapon()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Fire weapon!"));
+	if (FireSound)
+	{
+		UGameplayStatics::PlaySound2D(this, FireSound);
+	}
+}
+
 // Called every frame
 void AShooterCharacter::Tick(float DeltaTime)
 {
@@ -117,6 +128,8 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 	PlayerInputComponent->BindAction("Jump",IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump",IE_Released, this, &ACharacter::StopJumping);
+
+	PlayerInputComponent->BindAction("FireButton",IE_Pressed, this, &AShooterCharacter::FireWeapon);
 	
 	PlayerInputComponent->BindAction("IncreaseCameraBoom",IE_Pressed, this, &AShooterCharacter::IncreaseCameraBoom);
 	PlayerInputComponent->BindAction("DecreaseCameraBoom",IE_Pressed, this, &AShooterCharacter::DecreaseCameraBoom);
