@@ -49509,6 +49509,7 @@
         <e p="DefaultEditor.ini" t="Include" />
         <e p="DefaultEngine.ini" t="Include" />
         <e p="DefaultGame.ini" t="Include" />
+        <e p="DefaultInput.ini" t="Include" />
       </e>
       <e p="Engine" t="Include" />
       <e p="Games" t="Include" />
@@ -49526,6 +49527,8 @@
           <e p="Shooter.Build.cs" t="Include" />
           <e p="Shooter.cpp" t="Include" />
           <e p="Shooter.h" t="Include" />
+          <e p="ShooterAnimInstance.cpp" t="Include" />
+          <e p="ShooterAnimInstance.h" t="Include" />
           <e p="ShooterCharacter.cpp" t="Include" />
           <e p="ShooterCharacter.h" t="Include" />
           <e p="ShooterGameModeBase.cpp" t="Include" />

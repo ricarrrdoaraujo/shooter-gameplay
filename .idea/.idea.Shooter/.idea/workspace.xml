@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +35,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/Shooter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterGameModeBase.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterGameModeBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/Shooter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/SpringArmComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Animation/AnimInstance.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
+        <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" />
+        <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" />
       </list>
     </option>
   </component>
@@ -386,7 +392,8 @@
       <updated>1626315518975</updated>
       <workItem from="1626315549248" duration="922000" />
       <workItem from="1626405168439" duration="4629000" />
-      <workItem from="1626488947364" duration="7981000" />
+      <workItem from="1626488947364" duration="8131000" />
+      <workItem from="1626565399650" duration="1753000" />
     </task>
     <servers />
   </component>
@@ -411,6 +418,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1626566418231">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.2560.1040@0.0.2560.1040" timestamp="1626566418231" />
     <state x="330" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1626495652117">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
