@@ -24,8 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +50,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" />
-        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
       </list>
     </option>
@@ -400,7 +400,7 @@
       <workItem from="1626640033207" duration="7205000" />
       <workItem from="1626651688784" duration="2088000" />
       <workItem from="1626741857143" duration="4738000" />
-      <workItem from="1626837573036" duration="2623000" />
+      <workItem from="1626837573036" duration="5132000" />
     </task>
     <servers />
   </component>
@@ -437,9 +437,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.2560.1040@0.0.2560.1040" timestamp="1626566418231" />
-    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1626642572744">
+    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1626842143053">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1626642572744" />
+    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1626842143053" />
   </component>
 </project>
