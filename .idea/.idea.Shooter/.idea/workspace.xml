@@ -25,6 +25,7 @@
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +400,7 @@
       <workItem from="1626640033207" duration="7205000" />
       <workItem from="1626651688784" duration="2088000" />
       <workItem from="1626741857143" duration="4738000" />
-      <workItem from="1626837573036" duration="1028000" />
+      <workItem from="1626837573036" duration="2623000" />
     </task>
     <servers />
   </component>
