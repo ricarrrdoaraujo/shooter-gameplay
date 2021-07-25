@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/_Game/Character/Animations/JogStopBlendSpace.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +53,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" />
-        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
       </list>
     </option>
   </component>
@@ -402,7 +405,9 @@
       <workItem from="1626837573036" duration="5410000" />
       <workItem from="1626924392627" duration="1467000" />
       <workItem from="1627013240707" duration="623000" />
-      <workItem from="1627014355323" duration="535000" />
+      <workItem from="1627014355323" duration="1553000" />
+      <workItem from="1627169541805" duration="1008000" />
+      <workItem from="1627171169856" duration="357000" />
     </task>
     <servers />
   </component>
@@ -435,6 +440,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="343" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1626639636600" />
+    <state x="226" y="256" key="Rider.ProjectTemplateDialog.Size" timestamp="1627016565672">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="226" y="256" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1040@0.0.2560.1040" timestamp="1627016565672" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1626566418231">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
