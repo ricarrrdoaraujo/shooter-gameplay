@@ -53,8 +53,8 @@
       <list>
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" />
-        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
       </list>
     </option>
   </component>
@@ -407,7 +407,7 @@
       <workItem from="1627014355323" duration="1553000" />
       <workItem from="1627169541805" duration="1008000" />
       <workItem from="1627171169856" duration="1093000" />
-      <workItem from="1627251688569" duration="898000" />
+      <workItem from="1627251688569" duration="2132000" />
     </task>
     <servers />
   </component>
