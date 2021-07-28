@@ -265,6 +265,9 @@ void AShooterCharacter::Tick(float DeltaTime)
 
 	//Change look sensitivity based on aiming
 	SetLookRate();
+
+	//Calculate crosshair multiplier
+	CalculateCrosshairSpread(DeltaTime);
 }
 
 // Called to bind functionality to input
@@ -290,6 +293,11 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	
 	PlayerInputComponent->BindAction("IncreaseCameraBoom",IE_Pressed, this, &AShooterCharacter::IncreaseCameraBoom);
 	PlayerInputComponent->BindAction("DecreaseCameraBoom",IE_Pressed, this, &AShooterCharacter::DecreaseCameraBoom);
+}
+
+float AShooterCharacter::GetCrosshairSpreadMultiplier() const
+{
+	return CrosshairSpreadMultiplier;
 }
 
 void AShooterCharacter::AimingButtonPressed()
