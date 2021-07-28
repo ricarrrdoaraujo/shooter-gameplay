@@ -339,3 +339,19 @@ void AShooterCharacter::SetLookRate()
 		BaseLookUpRate = HipLookupRate;
 	}
 }
+
+void AShooterCharacter::CalculateCrosshairSpread(float DeltaTime)
+{
+	FVector2D WalkSpeedRange{ 0.f, 600.f };
+	FVector2D VelocityMultiplierRange{0.f, 1.f };
+	FVector Velocity{GetVelocity()};
+	Velocity.Z = 0.f;
+	
+	CrosshairVelocityFactor = FMath::GetMappedRangeValueClamped(
+		WalkSpeedRange,
+		VelocityMultiplierRange,
+		Velocity.Size()
+		);
+	
+	CrosshairSpreadMultiplier = 0.5f + CrosshairVelocityFactor;
+}

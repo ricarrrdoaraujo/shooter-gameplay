@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/ShooterCharacterBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/ShooterCharacterBP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
     </list>
@@ -53,8 +52,8 @@
       <list>
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" />
-        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
       </list>
     </option>
   </component>
@@ -408,7 +407,8 @@
       <workItem from="1627169541805" duration="1008000" />
       <workItem from="1627171169856" duration="1093000" />
       <workItem from="1627251688569" duration="3802000" />
-      <workItem from="1627350742774" duration="3176000" />
+      <workItem from="1627350742774" duration="3612000" />
+      <workItem from="1627439758396" duration="1172000" />
     </task>
     <servers />
   </component>
