@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
-    </list>
+    <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -412,6 +408,7 @@
       <workItem from="1627522755177" duration="3817000" />
       <workItem from="1627777613804" duration="3934000" />
       <workItem from="1627783161603" duration="870000" />
+      <workItem from="1627784123236" duration="623000" />
     </task>
     <servers />
   </component>
