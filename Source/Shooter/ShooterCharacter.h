@@ -66,6 +66,14 @@ protected:
 
 	UFUNCTION()
 	void FinishCrosshairBulletFire();
+
+	void FireButtonPressed();
+	void FireButtonReleased();
+
+	void StartFireTimer();
+
+	UFUNCTION()
+	void AutoFireReset();
 	
 public:	
 	// Called every frame
@@ -183,12 +191,22 @@ private:
 	//Shooting component for crosshairs spread
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Crosshairs, meta = (AllowPrivateAccess = "true"))
 	float CrosshairShootingFactor;
-	
 
 	float ShootTimeDuration;
 	bool bFiringBullet;
 	FTimerHandle CrosshairShootTimer;
-		
+
+	//Left mouse button or right console trigger pressed
+	bool bFireButtonPressed;
+
+	// True when whe can fire. False when waiting for the fire
+	bool bShouldFire;
+
+	// Rate of automatic gun fire
+	float AutomaticFireRate;
+
+	// Sets a timer between gun shots
+	FTimerHandle AutoFireTimer;
 	
 public:
 	FORCEINLINE USpringArmComponent* GetCameraBoom() const { return CameraBoom; };
