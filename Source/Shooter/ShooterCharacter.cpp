@@ -526,6 +526,28 @@ void AShooterCharacter::TraceForItems()
 				//show item's pickup widget
 				HitItem->GetPickupWidget()->SetVisibility(true);
 			}
+
+			// we hit an AItem last frame
+			if (TraceHitItemLastFrame)
+			{
+				if(HitItem != TraceHitItemLastFrame)
+				{
+					// Hitting a different AItem this frame from last frame
+					//or AItem is null
+					TraceHitItemLastFrame->GetPickupWidget()->SetVisibility(false);
+				}
+				
+			}
+			
+			// Store a reference to HitItem for nextt frame
+			TraceHitItemLastFrame = HitItem;
+			
 		}	
+	}
+	else if(TraceHitItemLastFrame)
+	{
+		// No longer overlapping any items,
+		//Item last frame should not show widget
+		TraceHitItemLastFrame->GetPickupWidget()->SetVisibility(false);
 	}
 }
