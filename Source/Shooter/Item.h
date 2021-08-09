@@ -108,4 +108,5 @@ public:
 	FORCEINLINE UBoxComponent* GetCollisionBox() const {return CollisionBox;};
 	FORCEINLINE EItemState GetItemState() const {return ItemState;};
 	void SetItemState(EItemState State);
+	FORCEINLINE USkeletalMeshComponent* GetItemMesh() const {return ItemMesh;};
 };
