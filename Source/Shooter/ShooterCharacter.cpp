@@ -573,11 +573,6 @@ void AShooterCharacter::EquipWeapon(AWeapon* WeaponToEquip)
 {
 	if (WeaponToEquip)
 	{
-		//Set Area sphere to ignore all collision channels
-		WeaponToEquip->GetAreaSphere()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-		//Set Collision Box to ignore all collision channels
-		WeaponToEquip->GetCollisionBox()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-		
 		// get the hand socket
 		const USkeletalMeshSocket* HandSocket = GetMesh()->GetSocketByName(FName("RightHandSocket"));
 

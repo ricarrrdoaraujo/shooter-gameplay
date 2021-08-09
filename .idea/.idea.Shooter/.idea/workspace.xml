@@ -27,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/Item.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Item.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/Item.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Item.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +55,9 @@
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/Shooter.Build.cs" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
-        <option value="$PROJECT_DIR$/Source/Shooter/Item.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/Item.h" />
+        <option value="$PROJECT_DIR$/Source/Shooter/Item.cpp" />
       </list>
     </option>
   </component>
@@ -424,7 +423,7 @@
       <workItem from="1628307261550" duration="2160000" />
       <workItem from="1628367651613" duration="7029000" />
       <workItem from="1628379015020" duration="2936000" />
-      <workItem from="1628465980725" duration="3120000" />
+      <workItem from="1628465980725" duration="4854000" />
     </task>
     <servers />
   </component>
