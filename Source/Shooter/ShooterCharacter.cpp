@@ -337,6 +337,15 @@ FVector AShooterCharacter::GetCameraInterpLocation()
 	+ FVector(0.f,0.f, CameraInterpElevation);
 }
 
+void AShooterCharacter::GetPickupItem(AItem* Item)
+{
+	auto Weapon = Cast<AWeapon>(Item);
+	if(Weapon)
+	{
+		SwapWeapon(Weapon);
+	}
+}
+
 void AShooterCharacter::AimingButtonPressed()
 {
 	bAiming = true;
