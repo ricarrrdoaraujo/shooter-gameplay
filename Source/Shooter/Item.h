@@ -135,6 +135,10 @@ private:
 	//Handles item interpolation when in the EquipInterping state
 	void ItemInterp(float DeltaTime);
 
+	//X and Y for the Item while interping in the EquipInterping state
+	float ItemInterpX;
+	float ItemInterpY;
+
 public:
 	FORCEINLINE UWidgetComponent* GetPickupWidget() const {return PickupWidget;};
 	FORCEINLINE USphereComponent* GetAreaSphere() const {return AreaSphere;};

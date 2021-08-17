@@ -27,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/Item.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Item.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/Item.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Item.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,7 +430,7 @@
       <workItem from="1628465980725" duration="9847000" />
       <workItem from="1628479257846" duration="2872000" />
       <workItem from="1629160278113" duration="258000" />
-      <workItem from="1629161508097" duration="5537000" />
+      <workItem from="1629161508097" duration="7115000" />
     </task>
     <servers />
   </component>
