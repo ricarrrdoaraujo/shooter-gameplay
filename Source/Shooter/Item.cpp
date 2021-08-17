@@ -195,6 +195,24 @@ void AItem::SetItemProperties(EItemState State)
 			CollisionBox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 			break;
 
+		case EItemState::EIS_EquipInterping:
+			PickupWidget->SetVisibility(false);
+			//Set mesh properties
+			ItemMesh->SetSimulatePhysics(false);
+			ItemMesh->SetEnableGravity(false);
+			ItemMesh->SetVisibility(true);
+			ItemMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+			ItemMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+			//Set area sphere properties
+			AreaSphere->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+			AreaSphere->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+			//Set CollisionBox properties
+			CollisionBox->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+			CollisionBox->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+			break;
+
 		default:
 			NULL;
 	}
