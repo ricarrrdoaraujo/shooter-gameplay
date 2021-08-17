@@ -25,6 +25,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Shooter/Item.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Item.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/Item.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Item.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +56,10 @@
         <option value="$PROJECT_DIR$/Source/Shooter/Shooter.Build.cs" />
         <option value="$PROJECT_DIR$/Source/Shooter/Weapon.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/Weapon.cpp" />
-        <option value="$PROJECT_DIR$/Source/Shooter/Item.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/Item.h" />
+        <option value="$PROJECT_DIR$/Source/Shooter/Item.cpp" />
       </list>
     </option>
   </component>
@@ -429,7 +430,7 @@
       <workItem from="1628465980725" duration="9847000" />
       <workItem from="1628479257846" duration="2872000" />
       <workItem from="1629160278113" duration="258000" />
-      <workItem from="1629161508097" duration="1986000" />
+      <workItem from="1629161508097" duration="3572000" />
     </task>
     <servers />
   </component>
@@ -542,16 +543,5 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="330" y="233" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1626842143053" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Source/Shooter/Item.cpp</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

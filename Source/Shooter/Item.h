@@ -106,6 +106,32 @@ private:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Item Properties", meta = (AllowPrivateAccess = "true"))
 	class UCurveFloat* ItemZCurve;
 
+	//Starting location when interping begins
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Item Properties", meta = (AllowPrivateAccess = "true"))
+	FVector ItemInterpStartLocation;
+
+	//Target interp location in front of the camera
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Item Properties", meta = (AllowPrivateAccess = "true"))
+	FVector CameraTargetLocation;
+
+	//true when is interping
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Item Properties", meta = (AllowPrivateAccess = "true"))
+	bool bInterping;
+
+	//Plays when start interping
+	FTimerHandle ItemInterpTimer;
+
+	//Duration of the curve and timer
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Item Properties", meta = (AllowPrivateAccess = "true"))
+	float ZCurveTime;
+
+	//Pointer to the character
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Item Properties", meta = (AllowPrivateAccess = "true"))
+	class AShooterCharacter* Character;
+
+	//Called when item interp timer is finished
+	void FinishInterping();
+
 public:
 	FORCEINLINE UWidgetComponent* GetPickupWidget() const {return PickupWidget;};
 	FORCEINLINE USphereComponent* GetAreaSphere() const {return AreaSphere;};
@@ -113,4 +139,7 @@ public:
 	FORCEINLINE EItemState GetItemState() const {return ItemState;};
 	void SetItemState(EItemState State);
 	FORCEINLINE USkeletalMeshComponent* GetItemMesh() const {return ItemMesh;};
+
+	//Called from AShooterCharacter class
+	void StartItemCurve(AShooterCharacter* Char);
 };
