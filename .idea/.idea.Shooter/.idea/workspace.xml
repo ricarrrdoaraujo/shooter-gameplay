@@ -25,7 +25,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_Game/Maps/SpaceStation.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Maps/SpaceStation.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
     </list>
@@ -56,9 +55,9 @@
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/Shooter.Build.cs" />
         <option value="$PROJECT_DIR$/Source/Shooter/Item.h" />
-        <option value="$PROJECT_DIR$/Source/Shooter/Item.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/Weapon.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/Weapon.cpp" />
+        <option value="$PROJECT_DIR$/Source/Shooter/Item.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
       </list>
@@ -71,6 +70,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34984276" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30031446" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -427,7 +428,9 @@
       <workItem from="1628367651613" duration="7029000" />
       <workItem from="1628379015020" duration="2936000" />
       <workItem from="1628465980725" duration="9847000" />
-      <workItem from="1628479257846" duration="2620000" />
+      <workItem from="1628479257846" duration="2872000" />
+      <workItem from="1629160278113" duration="258000" />
+      <workItem from="1629161508097" duration="601000" />
     </task>
     <servers />
   </component>
@@ -460,6 +463,70 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="343" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1626639636600" />
+    <state width="1303" height="211" key="GridCell.Tab.0.bottom" timestamp="1629160537984">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
+    <state width="1303" height="211" key="GridCell.Tab.0.center" timestamp="1629160537984">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
+    <state width="1303" height="211" key="GridCell.Tab.0.left" timestamp="1629160537984">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
+    <state width="1303" height="211" key="GridCell.Tab.0.right" timestamp="1629160537984">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
+    <state width="1303" height="211" key="GridCell.Tab.1.bottom" timestamp="1629160537985">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
+    <state width="1303" height="211" key="GridCell.Tab.1.center" timestamp="1629160537984">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
+    <state width="1303" height="211" key="GridCell.Tab.1.left" timestamp="1629160537984">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
+    <state width="1303" height="211" key="GridCell.Tab.1.right" timestamp="1629160537985">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
+    <state width="1303" height="211" key="GridCell.Tab.2.bottom" timestamp="1629160537986">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.2.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
+    <state width="1303" height="211" key="GridCell.Tab.2.center" timestamp="1629160537985">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.2.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
+    <state width="1303" height="211" key="GridCell.Tab.2.left" timestamp="1629160537985">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.2.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
+    <state width="1303" height="211" key="GridCell.Tab.2.right" timestamp="1629160537986">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.2.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
+    <state width="1303" height="211" key="GridCell.Tab.3.bottom" timestamp="1629160537987">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.3.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537987" />
+    <state width="1303" height="211" key="GridCell.Tab.3.center" timestamp="1629160537986">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.3.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
+    <state width="1303" height="211" key="GridCell.Tab.3.left" timestamp="1629160537986">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.3.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
+    <state width="1303" height="211" key="GridCell.Tab.3.right" timestamp="1629160537986">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1303" height="211" key="GridCell.Tab.3.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
     <state x="226" y="256" key="Rider.ProjectTemplateDialog.Size" timestamp="1627016565672">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -476,5 +543,16 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="330" y="233" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1626842143053" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/Shooter/Item.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
