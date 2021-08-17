@@ -132,6 +132,9 @@ private:
 	//Called when item interp timer is finished
 	void FinishInterping();
 
+	//Handles item interpolation when in the EquipInterping state
+	void ItemInterp(float DeltaTime);
+
 public:
 	FORCEINLINE UWidgetComponent* GetPickupWidget() const {return PickupWidget;};
 	FORCEINLINE USphereComponent* GetAreaSphere() const {return AreaSphere;};
