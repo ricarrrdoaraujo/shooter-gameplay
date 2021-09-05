@@ -49535,6 +49535,8 @@
           <e p="ShooterCharacter.h" t="Include" />
           <e p="ShooterGameModeBase.cpp" t="Include" />
           <e p="ShooterGameModeBase.h" t="Include" />
+          <e p="ShooterPlayerController.cpp" t="Include" />
+          <e p="ShooterPlayerController.h" t="Include" />
           <e p="Weapon.cpp" t="Include" />
           <e p="Weapon.h" t="Include" />
         </e>
