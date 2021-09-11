@@ -98,6 +98,9 @@ void UFootIK::IKUpdate(float fDeltaTime)
 	IKTraceInfo TraceLeft = IKFootTrace(IKTraceDistance, IKSocketNameLeftFoot);
 	IKTraceInfo TraceRight = IKFootTrace(IKTraceDistance, IKSocketNameRightFoot);
 	UE_LOG(LogTemp, Warning, TEXT("IKUpdate"));
+
+	IKUpdateFootOffset(fDeltaTime, TraceLeft.Offset, &EffectorLocationLeft, 13.0f);
+	IKUpdateFootOffset(fDeltaTime, TraceRight.Offset, &EffectorLocationRight, 13.0f);
 }
 
 void UFootIK::IKUpdateFootOffset(float DeltaTime, float TargetValue, float* EffectorValue, float InterpSpeed)

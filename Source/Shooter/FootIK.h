@@ -13,6 +13,19 @@ typedef struct IKTraceInfo
 	FVector ImpactLocation;
 };
 
+USTRUCT(Atomic, BlueprintType)
+struct FStIKAnimValue
+{
+	GENERATED_BODY()
+
+public :
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float EffectorLocationLeft;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float EffectorLocationRight;
+};
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SHOOTER_API UFootIK : public UActorComponent
 {
@@ -27,6 +40,9 @@ private:
 	class ACharacter* pCharacter;
 
 	bool bIsActive;
+
+	// UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="IK Values", meta = (AllowPrivateAccess = "true"))
+	// FStIKAnimValue IKAnimValues;
 	
 protected:
 	// Called when the game starts
@@ -59,9 +75,17 @@ public:
 	float IKTraceDistance;
 
 	void SetIKSocketName(FString SocLeftFoot, FString SocRightFoot);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float EffectorLocationLeft;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float EffectorLocationRight;
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	// FORCEINLINE FStIKAnimValue GetIKAnimValue() const { return IKAnimValues; }
 
 	FORCEINLINE void SetIKActive(bool bActive) { bIsActive = bActive; };
 };
