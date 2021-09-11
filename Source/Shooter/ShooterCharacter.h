@@ -107,6 +107,9 @@ protected:
 
 	// initialize ammo map with ammo values
 	void InitializeAmmoMap();
+
+	//check to make sure our weapon has ammo
+	bool WeaponHasAmmo();
 	
 public:	
 	// Called every frame
