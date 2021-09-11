@@ -483,9 +483,9 @@ void AShooterCharacter::FinishCrosshairBulletFire()
 
 void AShooterCharacter::FireButtonPressed()
 {
+	bFireButtonPressed = true;
 	if(WeaponHasAmmo())
 	{
-		bFireButtonPressed = true;
 		StartFireTimer();
 	}
 	
