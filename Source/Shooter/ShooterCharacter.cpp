@@ -286,6 +286,14 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 	PlayerInputComponent->BindAction("Select",IE_Pressed, this, &AShooterCharacter::SelectButtonPressed);
 	PlayerInputComponent->BindAction("Select",IE_Released, this, &AShooterCharacter::SelectButtonReleased);
+
+	PlayerInputComponent->BindAction("ReloadButton",IE_Pressed, this, &AShooterCharacter::ReloadButtonPressed);
+}
+
+void AShooterCharacter::FinishReloading()
+{
+	//TODO: Update AmmoMap
+	CombatState = ECombatState::ECS_Unoccupied;
 }
 
 float AShooterCharacter::GetCrosshairSpreadMultiplier() const
@@ -486,7 +494,7 @@ void AShooterCharacter::AutoFireReset()
 	else
 	{
 		//Reload Weapon
-		
+		ReloadWeapon();
 	}
 }
 
@@ -695,4 +703,31 @@ void AShooterCharacter::PlayGunFireMontage()
 		AnimInstance->Montage_Play(HipFireMontage);
 		AnimInstance->Montage_JumpToSection(FName("StartFire"));
 	}
+}
+
+void AShooterCharacter::ReloadButtonPressed()
+{
+	ReloadWeapon();
+}
+
+void AShooterCharacter::ReloadWeapon()
+{
+	if (CombatState != ECombatState::ECS_Unoccupied) return;
+
+	// do we have ammo of the correct type?
+	// TODO: create bool CarryingAmmo()
+	if (true) //replace with CarryingAmmo()
+	{
+		//TODO: create an enum for weapon type
+		//TODO: switch on EquippedWeapon->WeaponType
+		FName MontageSection(TEXT("Reload SMG"));
+		
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		if (AnimInstance && ReloadMontage)
+		{
+			AnimInstance->Montage_Play(ReloadMontage);
+			AnimInstance->Montage_JumpToSection(MontageSection);
+		}
+	}
+
 }
