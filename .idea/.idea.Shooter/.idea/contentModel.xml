@@ -49524,6 +49524,8 @@
       <e p="Shooter.uproject" t="Include" />
       <e p="Source" t="Include">
         <e p="Shooter" t="Include">
+          <e p="FootIK.cpp" t="Include" />
+          <e p="FootIK.h" t="Include" />
           <e p="Item.cpp" t="Include" />
           <e p="Item.h" t="Include" />
           <e p="Shooter.Build.cs" t="Include" />
