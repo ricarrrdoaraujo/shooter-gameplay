@@ -90,6 +90,9 @@ AShooterCharacter::AShooterCharacter() :
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f); // ...at this rotation rate
 	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
+
+	//Create HandSceneComponent
+	HandSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("HandSceneComp"));
 ;}
 
 // Called when the game starts or when spawned
@@ -775,6 +778,7 @@ bool AShooterCharacter::CarryingAmmo()
 void AShooterCharacter::GrabClip()
 {
 	if (EquippedWeapon == nullptr) return;
+	if (HandSceneComponent == nullptr) return;
 
 	//Index for the clip bone in the equipped weapon
 	int32 ClipBoneIndex{ EquippedWeapon->GetItemMesh()->GetBoneIndex(EquippedWeapon->GetClipBoneName()) };
