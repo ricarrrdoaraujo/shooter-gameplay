@@ -24,10 +24,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/Animations/ReloadMontage.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/Animations/ReloadMontage.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_Game/Maps/SpaceStation.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Maps/SpaceStation.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_Game/Weapons/BaseWeapon/BaseWeaponBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Weapons/BaseWeapon/BaseWeaponBP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Weapon.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/Weapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/Weapon.h" afterDir="false" />
     </list>
@@ -62,9 +64,9 @@
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterPlayerController.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterPlayerController.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/Shooter/Weapon.h" />
         <option value="$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/Shooter/Weapon.cpp" />
-        <option value="$PROJECT_DIR$/Source/Shooter/Weapon.h" />
       </list>
     </option>
   </component>
@@ -444,7 +446,8 @@
       <workItem from="1631666128631" duration="4397000" />
       <workItem from="1633054478537" duration="559000" />
       <workItem from="1633920582888" duration="1397000" />
-      <workItem from="1633923684210" duration="1007000" />
+      <workItem from="1633923684210" duration="1778000" />
+      <workItem from="1633988144217" duration="4543000" />
     </task>
     <servers />
   </component>
