@@ -25,12 +25,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/Animations/RunningBlendSpace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/Animations/RunningBlendSpace.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/Shooter.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterGameModeBase.h" root0="FORCE_HIGHLIGHTING" />
@@ -49,7 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Source/Shooter/Shooter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/SpringArmComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Animation/AnimInstance.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -457,6 +452,7 @@
       <workItem from="1638060455007" duration="2476000" />
       <workItem from="1644281872123" duration="2455000" />
       <workItem from="1644284907668" duration="1084000" />
+      <workItem from="1644361114519" duration="597000" />
     </task>
     <servers />
   </component>
