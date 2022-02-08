@@ -38,6 +38,9 @@ protected:
 	//Handle turn in place variables
 	void TurnInPlace();
 
+	// Handle calculations for leaning while running
+	void Lean(float DeltaTime);
+
 private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta =(AllowPrivateAccess = "true"))
@@ -64,10 +67,12 @@ private:
 	bool bAiming;
 
 	//Yaw of the character this frame
-	float CharacterYaw;
+	//Only updated when standing still and not in air
+	float TIPCharacterYaw;
 
 	//Yaw of the character the previous frame
-	float CharacterYawLastFrame;
+	//Only updated when standing still and not in air
+	float TIPCharacterYawLastFrame;
 
 	//the pitch of the aim rotation, used for aim offset
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category= "Turn In Place", meta =(AllowPrivateAccess = "true"))
@@ -90,4 +95,14 @@ private:
 	//Offset State used to determine which aim offset to use
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Turn In Place", meta = (AllowPrivateAccess = "true"))
 	EOffsetState OffsetState;
+
+	//Character Yaw this Frame
+	float CharacterYaw;
+
+	//Character Yaw last Frame
+	float CharacterYawLastFrame;
+
+	///Yaw delta used for leaning in the running blendspace
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Lean, meta = (AllowPrivateAccess = "true"))
+	float YawDelta;
 };
