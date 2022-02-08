@@ -24,7 +24,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/Animations/RunningBlendSpace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/Animations/RunningBlendSpace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/ShooterAnimBP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" afterDir="false" />
     </list>
@@ -37,7 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/Shooter.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterAnimInstance.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterGameModeBase.h" root0="FORCE_HIGHLIGHTING" />
@@ -45,7 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Source/Shooter/Shooter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/SpringArmComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Shooter/ShooterCharacter.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Animation/AnimInstance.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -451,7 +455,8 @@
       <workItem from="1634176437040" duration="1234000" />
       <workItem from="1634181301460" duration="3778000" />
       <workItem from="1638060455007" duration="2476000" />
-      <workItem from="1644281872123" duration="621000" />
+      <workItem from="1644281872123" duration="2455000" />
+      <workItem from="1644284907668" duration="1084000" />
     </task>
     <servers />
   </component>
@@ -476,97 +481,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="349" key="#Notifications" timestamp="1626640094573">
+    <state x="1590" y="211" width="644" height="624" key="find.popup" timestamp="1644282605589">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="411" y="349" key="#Notifications/0.0.2560.1040@0.0.2560.1040" timestamp="1626640094573" />
-    <state x="343" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1626639636600">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="343" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1626639636600" />
-    <state width="1303" height="211" key="GridCell.Tab.0.bottom" timestamp="1629160537984">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
-    <state width="1303" height="211" key="GridCell.Tab.0.center" timestamp="1629160537984">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
-    <state width="1303" height="211" key="GridCell.Tab.0.left" timestamp="1629160537984">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
-    <state width="1303" height="211" key="GridCell.Tab.0.right" timestamp="1629160537984">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
-    <state width="1303" height="211" key="GridCell.Tab.1.bottom" timestamp="1629160537985">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
-    <state width="1303" height="211" key="GridCell.Tab.1.center" timestamp="1629160537984">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
-    <state width="1303" height="211" key="GridCell.Tab.1.left" timestamp="1629160537984">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537984" />
-    <state width="1303" height="211" key="GridCell.Tab.1.right" timestamp="1629160537985">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
-    <state width="1303" height="211" key="GridCell.Tab.2.bottom" timestamp="1629160537986">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.2.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
-    <state width="1303" height="211" key="GridCell.Tab.2.center" timestamp="1629160537985">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.2.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
-    <state width="1303" height="211" key="GridCell.Tab.2.left" timestamp="1629160537985">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.2.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537985" />
-    <state width="1303" height="211" key="GridCell.Tab.2.right" timestamp="1629160537986">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.2.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
-    <state width="1303" height="211" key="GridCell.Tab.3.bottom" timestamp="1629160537987">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.3.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537987" />
-    <state width="1303" height="211" key="GridCell.Tab.3.center" timestamp="1629160537986">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.3.center/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
-    <state width="1303" height="211" key="GridCell.Tab.3.left" timestamp="1629160537986">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.3.left/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
-    <state width="1303" height="211" key="GridCell.Tab.3.right" timestamp="1629160537986">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1303" height="211" key="GridCell.Tab.3.right/0.0.2560.1040@0.0.2560.1040" timestamp="1629160537986" />
-    <state x="226" y="256" key="Rider.ProjectTemplateDialog.Size" timestamp="1627016565672">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="226" y="256" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1040@0.0.2560.1040" timestamp="1627016565672" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1626566418231">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.2560.1040@0.0.2560.1040" timestamp="1626566418231" />
-    <state x="349" y="256" width="644" height="534" key="find.popup" timestamp="1629170046279">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="349" y="256" width="644" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1629170046279" />
-    <state x="292" y="244" key="run.anything.popup" timestamp="1627353757205">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="292" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1627353757205" />
-    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1626842143053">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="330" y="233" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1626842143053" />
+    <state x="1590" y="211" width="644" height="624" key="find.popup/-4096.0.1365.707/0.0.2560.1040@0.0.2560.1040" timestamp="1644282605589" />
   </component>
 </project>
