@@ -20,7 +20,9 @@ UShooterAnimInstance::UShooterAnimInstance() :
     Pitch(0.f),
     bReloading(false),
     OffsetState(EOffsetState::EOS_Hip),
-    YawDelta(0.f)
+    YawDelta(0.f),
+    RecoilWeight(1.f),
+    bTurnInPlace(false)
 {
     
 }
@@ -122,6 +124,7 @@ void UShooterAnimInstance::TurnInPlace()
         // 1.0 if turning, 0.0 if not
         if (Turning > 0)
         {
+            bTurnInPlace = true; 
             RotationCurveLastFrame = RotationCurve;
             RotationCurve = GetCurveValue(TEXT("Rotation"));
             const float DeltaRotation{RotationCurve - RotationCurveLastFrame};
@@ -137,18 +140,47 @@ void UShooterAnimInstance::TurnInPlace()
                 RootYawOffset > 0 ? RootYawOffset -= YawExcess : RootYawOffset += YawExcess;
             }
         }
+        else
+        {
+            bTurnInPlace = false;
+        }
 
-        // if(GEngine) GEngine->AddOnScreenDebugMessage(
-        //     1,
-        //     -1,
-        //     FColor::Blue,
-        //     FString::Printf(TEXT("TIPCharacterYaw: %f"), TIPCharacterYaw ));
-        //
-        // if(GEngine) GEngine->AddOnScreenDebugMessage(
-        //     2,
-        //     -1,
-        //     FColor::Red,
-        //     FString::Printf(TEXT("RootYawOffset: %f"), RootYawOffset ));
+        if (bTurnInPlace)
+        {
+            if (bReloading)
+            {
+                RecoilWeight = 1.f;
+            }
+            else
+            {
+                RecoilWeight = 0.f;
+            }
+        }
+        else // not turning in place
+        {
+            if (bCrouching)
+            {
+                if (bReloading)
+                {
+                    RecoilWeight = 1.f;
+                }
+                else
+                {
+                    RecoilWeight = 0.1f;
+                }
+            }
+            else
+            {
+                if (bAiming || bReloading)
+                {
+                    RecoilWeight = 1.f;
+                }
+                else
+                {
+                    RecoilWeight = 0.5f;
+                }
+            }
+        }
     }
 }
 
