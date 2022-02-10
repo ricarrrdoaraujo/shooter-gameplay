@@ -25,9 +25,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12681d9c-11fe-4cff-9d7a-fbcf1c2ed67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ParagonLtBelica/Characters/Heroes/Belica/Meshes/Belica_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/Animations/Crouching/MixamoCharacter/Crouching_Turn_90_Right.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/Animations/Crouching/MixamoCharacter/Crouching_Turn_90_Right.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_Game/Character/Animations/Crouching/MixamoCharacter/Crouching_Turn_90_Right_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_Game/Character/Animations/Crouching/MixamoCharacter/Crouching_Turn_90_Right_Skeleton.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,6 +452,8 @@
       <workItem from="1644281872123" duration="2455000" />
       <workItem from="1644284907668" duration="1084000" />
       <workItem from="1644361114519" duration="1784000" />
+      <workItem from="1644447180001" duration="416000" />
+      <workItem from="1644449179179" duration="277000" />
     </task>
     <servers />
   </component>
